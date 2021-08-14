@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviewBinaryPdf.vue 是否渲染了iframe组件 1`] = `
+<iframe
+  frameborder="0"
+  scrolling="auto"
+  src=""
+  style="height: 100vh;"
+  type="application/x-google-chrome-pdf"
+  width="100%"
+/>
+`;
