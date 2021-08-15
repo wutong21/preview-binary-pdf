@@ -22,15 +22,15 @@ export default {
   },
   watch: {
     data(val) {
-      if (val !== null) {
-        this.binaryDataToUrl(val)
-      }
+      this.getData(val)
     },
     url(val) {
-      if (val !== null) {
-        this.fileUrl = this.url
-      }
+      this.getUrl(val)
     }
+  },
+  mounted(){
+    this.getUrl(this.url)
+    this.getData(this.data)
   },
   data() {
     return {
@@ -39,6 +39,16 @@ export default {
     };
   },
   methods:{
+    getData(val){
+      if (val !== null) {
+        this.binaryDataToUrl(val)
+      }
+    },
+    getUrl(val){
+      if (val !== null) {
+        this.fileUrl = val
+      }
+    },
     binaryDataToUrl(data){
       let blob = new Blob([data], {
         type: `${this.type}`
