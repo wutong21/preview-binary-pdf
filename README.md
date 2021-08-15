@@ -3,17 +3,24 @@
 ## 安装
 
 ```sh
-npm install is-null-string
+npm install preview-binary-pdf
 ```
 ## 引用
 
 ```JavaScript
+<script>
 import PreviewBinaryPdf from 'preview-binary-pdf'
-Vue.use(PreviewBinaryPdf)
+export default {
+  name: 'App',
+  components: {
+    PreviewBinaryPdf
+  },
+}
+</script>
 ```
 
 ```html
-<preview-binary-pdf url="url" :data="data">
+<preview-binary-pdf :url="url" :data="data">
 ```
 # 参数
 |参数|说明|类型|可选值|默认值
