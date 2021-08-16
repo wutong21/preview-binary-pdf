@@ -1,12 +1,19 @@
 {
   "name": "preview-binary-pdf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "author": "",
   "scripts": {
-    "test:unit": "vue-cli-service test:unit",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:unit": "vue-cli-service test:unit"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wutong21/preview-binary-pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wutong21/preview-binary-pdf/issues"
+  },
+  "homepage": "https://github.com/wutong21/preview-binary-pdf#readme",
   "main": "index.js",
   "dependencies": {
     "babel-jest": "^24.9.0",
