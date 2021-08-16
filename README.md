@@ -1,10 +1,12 @@
 # 预览PDF
 预览PDF组件（可传二进制ArrayBuffer数据）
+
 ## 安装
 
 ```sh
 npm install preview-binary-pdf
 ```
+
 ## 引用
 
 ```JavaScript
