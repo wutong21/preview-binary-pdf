@@ -1,5 +1,5 @@
-# 预览PDF（可传二进制ArrayBuffer数据）
-
+# 预览PDF
+预览PDF组件（可传二进制ArrayBuffer数据）
 ## 安装
 
 ```sh
